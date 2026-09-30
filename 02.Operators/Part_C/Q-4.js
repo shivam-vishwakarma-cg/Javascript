@@ -1,0 +1,26 @@
+
+       // 1. String ID vs Number ID
+let stringId = "101";
+let numberId = 101;
+console.log("IDs Strictly Not Equal (!==):", stringId !== numberId);
+
+// 2. Boolean status vs Numeric status
+let booleanStatus = true;
+let numericStatus = 1;
+console.log("Status Strictly Not Equal (!==):", booleanStatus !== numericStatus);
+
+// 3. Password mismatch confirmation
+let userPassword1 = "abc123";
+let userPassword2 = "abc124";
+console.log("Passwords Strictly Mismatched (!==):", userPassword1 !== userPassword2);
+
+// 4. Server data vs local data strict inequality
+let serverResponse = null;
+let localCache = undefined;
+console.log("Server and Local Strictly Not Equal (!==):", serverResponse !== localCache);
+
+// 5. Player IDs check
+let playerOneId = 10;
+let playerTwoId = 20;
+console.log("Player IDs Strictly Not Equal (!==):", playerOneId !== playerTwoId);
+    

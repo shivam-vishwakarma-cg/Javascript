@@ -1,0 +1,28 @@
+
+        // Assignment 4: Understanding undefined vs null
+
+let x;
+let y = null;
+
+console.log("x =", x);
+console.log("y =", y);
+
+console.log("typeof x:", typeof x);
+console.log("typeof y:", typeof y);
+
+console.log("x == y:", x == y);   // Returns true because both represent absence of value
+console.log("x === y:", x === y); // Returns false because their data types are different
+
+/*
+  =======================================================
+  Task Answers:
+  =======================================================
+  - When is a variable undefined?
+    A variable is 'undefined' when it has been declared in code,
+    but has not yet been assigned any initial value.
+
+  - When do you use null?
+    You intentionally assign 'null' to a variable when you want to 
+    explicitly represent the intentional absence of any object value or content.
+*/
+    

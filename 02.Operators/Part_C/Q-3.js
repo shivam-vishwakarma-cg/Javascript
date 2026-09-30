@@ -1,0 +1,26 @@
+
+       // 1. Strict password match (types do not match)
+let savedPass = 1234;
+let enteredPass = "1234";
+console.log("Password Strictly Matches (===):", savedPass === enteredPass);
+
+// 2. Account numbers matching
+let accountNum1 = 1234567890;
+let accountNum2 = 1234567890;
+console.log("Account Numbers Match (===):", accountNum1 === accountNum2);
+
+// 3. Feature flag comparison
+let isFeatureActive = true;
+let requiredFeatureState = 1;
+console.log("Feature State Strictly Equals (===):", isFeatureActive === requiredFeatureState);
+
+// 4. Strict check for null vs undefined
+let dbValue = null;
+let cacheValue = undefined;
+console.log("DB and Cache Strictly Equal (===):", dbValue === cacheValue);
+
+// 5. Score strict equality
+let player1Score = 85;
+let player2Score = 85;
+console.log("Scores Strictly Equal (===):", player1Score === player2Score);
+    

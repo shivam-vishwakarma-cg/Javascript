@@ -1,0 +1,27 @@
+
+        // Assignment 2: Changing and Not Changing Values
+
+// Create a reassignable variable using let
+let score = 0;
+console.log("Initial Score:", score);
+
+// Increase by 10
+score += 10;
+console.log("Score after +10:", score);
+
+// Increase by 5
+score += 5;
+console.log("Score after +5:", score);
+
+// Subtract 3
+score -= 3;
+console.log("Score after -3:", score);
+
+// Create a constant variable
+const maxScore = 100;
+console.log("Max Score:", maxScore);
+
+// Trying to reassign a constant variable (Will throw a TypeError)
+// Un-comment the line below to see the error in console:
+// maxScore = 120; // TypeError: Assignment to constant variable.
+    

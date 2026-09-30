@@ -1,0 +1,19 @@
+
+        // 1. Pencils received per student
+const totalPencils = 144;
+const totalStudentsPencils = 12;
+const pencilsPerStudent = totalPencils / totalStudentsPencils;
+console.log("Pencils per Student:", pencilsPerStudent);
+
+// 2. Average distance per hour
+const totalDistance = 360;
+const travelHours = 6;
+const averageSpeed = totalDistance / travelHours;
+console.log("Average Distance per Hour:", averageSpeed);
+
+// 3. Amount received per department
+const totalBudget = 72000;
+const departmentsCount = 9;
+const amountPerDepartment = totalBudget / departmentsCount;
+console.log("Amount per Department:", amountPerDepartment);
+    

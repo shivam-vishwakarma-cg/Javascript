@@ -1,0 +1,26 @@
+
+       // 1. Population growth
+let townPopulation = 5000;
+townPopulation *= 3;
+console.log("Updated Population:", townPopulation);
+
+// 2. Factory production increase
+let dailyProductionUnits = 120;
+dailyProductionUnits *= 4;
+console.log("Updated Daily Production:", dailyProductionUnits);
+
+// 3. Double savings
+let savingsAmount = 2000;
+savingsAmount *= 2;
+console.log("Doubled Savings:", savingsAmount);
+
+// 4. Plant growth multiplier
+let totalGardenPlants = 50;
+totalGardenPlants *= 5;
+console.log("Updated Garden Plants:", totalGardenPlants);
+
+// 5. Score multiplier bonus
+let currentScore = 150;
+currentScore *= 3;
+console.log("Updated Score with Bonus:", currentScore);
+    

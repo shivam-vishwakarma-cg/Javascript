@@ -1,0 +1,26 @@
+
+       // 1. Remaining water in tank
+let waterInTank = 1000;
+waterInTank -= 375;
+console.log("Remaining Water:", waterInTank);
+
+// 2. Remaining student money
+let studentMoney = 500;
+studentMoney -= 180;
+console.log("Remaining Money:", studentMoney);
+
+// 3. Phone battery discharge
+let currentBattery = 90;
+currentBattery -= 45;
+console.log("Remaining Battery:", currentBattery);
+
+// 4. Warehouse inventory reduction
+let storedBoxes = 2400;
+storedBoxes -= 950;
+console.log("Remaining Warehouse Boxes:", storedBoxes);
+
+// 5. Game score reduction
+let playerScore = 2000;
+playerScore -= 625;
+console.log("Updated Player Score:", playerScore);
+    
